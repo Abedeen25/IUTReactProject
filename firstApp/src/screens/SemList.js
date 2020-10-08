@@ -47,7 +47,7 @@ const listOfSem = (props) => {
                         <TouchableOpacity style={styles.listItems}
                             onPress={
                                 function () {
-                                    props.navigation.navigate("Course List", item.courses);
+                                    props.navigation.navigate("Course List", item);
                                 }
                             }
                         >
